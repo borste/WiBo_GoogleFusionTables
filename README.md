@@ -1,5 +1,5 @@
 WiBo Google Fusion Tables
-====
+================================
 
 Projektbeschreibung
 -------------------------
@@ -10,25 +10,25 @@ Zeitplanung und Meilensteine
 -------------------------
 <table>
   <tr>
-    <th>Meilenstein</th><th>Plan</th><th>Ist</th>
+    <th>Phase</th><th>Meilenstein</th><th>Plan</th><th>Status</th>
   </tr>
   <tr>
-    <td>Einarbeitung</td><td>01.11.2012 - 13.11.2012</td><td></td>
+    <td>Analyse</td><td>Einarbeitung</td><td>01.11.2012 - 13.11.2012</td><td>abgeschlossen</td>
   </tr>
   <tr>
-    <td>Spezifikation / Lastenheft</td><td>14.11.2012 - 30.11.2012</td><td></td>
+    <td>Design</td><td>Projektbeschreibung (Spezifikation) </td><td>14.11.2012 - 30.11.2012</td><td>abgeschlossen</td>
   </tr>
   <tr>
-    <td>Vorbereitung Datenbeschaffung</td><td>01.12.2012 - 13.12.2012</td><td></td>
+    <td>Analyse</td><td>Vorbereitung Datenbeschaffung</td><td>01.12.2012 - 13.12.2012</td><td>begonnen</td>
   </tr>
   <tr>
-    <td>Umsetzung</td><td>14.12.2012 - 31.12.2012</td><td></td>
+    <td>Implementierung</td><td>Umsetzung</td><td>14.12.2012 - 31.12.2012</td><td>offen</td>
   </tr>
   <tr>
-    <td>Dokumentation der verwendeten Technologien</td><td>01.01.2013 - 14.01.2013</td><td></td>
+    <td>Dokumentation</td><td>Dokumentation der verwendeten Technologien</td><td>01.01.2013 - 14.01.2013</td><td>begonnen</td>
   </tr>
   <tr>
-    <td>Abschlusspräsentation</td><td>28.01.2013</td><td></td>
+    <td>Dokumentation</td><td>Abschlusspräsentation</td><td>28.01.2013</td><td>offen</td>
   </tr>
 </table>
 
@@ -39,10 +39,10 @@ Update
     <th>Datum</th><th>Bearbeiter</th><th>Kommentar</th>
   </tr>
   <tr>
-    <td>09.12.2012</td><td>MW / PB</td><td>Github eingerichtet und konfiguriert</td>
+    <td>13.11.2012</td><td>MW / PB</td><td>Datensammlung begonnen</td>
   </tr>
   <tr>
-    <td></td><td></td><td></td>
+    <td>09.12.2012</td><td>MW / PB</td><td>Github eingerichtet und konfiguriert</td>
   </tr>
   <tr>
     <td></td><td></td><td></td>
