@@ -6,6 +6,32 @@ Projektbeschreibung
 Ziel der Spezifikation beinhaltet die Definition der Anforderungen an das zu entwickelnde Daten­cockpit für die Berliner Weihnachtsmärkte auf Basis von Google Fusion Tables. Neben den Anforderungen an die Applikation sind die Meilensteine, Ziele sowie auch ein einfaches Design / Wi­reframing enthalten. Die Umsetzung der Applikation “Datencockpit” erfolgt auf Basis dieser Spezifikation.
 Neben der Umsetzung steht letztlich die Technologie im Vordergrund und soll hinreichend euriert und beschrieben werden.
 
+Update
+-------------------------
+<table>
+  <tr>
+    <th>Datum</th><th>Bearbeiter</th><th>Kommentar</th>
+  </tr>
+  <tr>
+    <td>04.11.2012</td><td>MW / PB</td><td>Projektbeschreibung, Google Docs</td>
+  </tr>  
+  <tr>
+    <td>13.11.2012</td><td>MW / PB</td><td>Datensammlung begonnen</td>
+  </tr>
+  <tr>
+    <td>02.12.2012</td><td>MW / PB</td><td>Dokumentation begonnen</td>
+  </tr>  
+  <tr>
+    <td>09.12.2012</td><td>MW / PB</td><td>Github eingerichtet und konfiguriert</td>
+  </tr>
+  <tr>
+    <td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td></td><td></td><td></td>
+  </tr>
+</table>
+
 Zeitplanung und Meilensteine
 -------------------------
 <table>
@@ -32,28 +58,25 @@ Zeitplanung und Meilensteine
   </tr>
 </table>
 
-Update
+Next Steps
 -------------------------
 <table>
   <tr>
-    <th>Datum</th><th>Bearbeiter</th><th>Kommentar</th>
+    <th>Beschreibung</th>
   </tr>
   <tr>
-    <td>04.11.2012</td><td>MW / PB</td><td>Projektbeschreibung, Google Docs</td>
+    <td>Datensammlung Weihnachtsmärkte abschließen</td>
+  </tr>  
+    <tr>
+    <td>Fusion Tables anlegen für Weihnachtsmärkte, ggf. Sehenswürdigkeiten</td>
+  </tr>
+  <tr>
+    <td>Geodaten für Bezirksgrenzen klären, anlegen bzw. KML`s eingeständig erstellen</td>
   </tr>  
   <tr>
-    <td>13.11.2012</td><td>MW / PB</td><td>Datensammlung begonnen</td>
+    <td>Visualisierung der Weihnachtsmarktdaten ggf. Geokoordination auf einer Google Map</td>
   </tr>
   <tr>
-    <td>02.12.2012</td><td>MW / PB</td><td>Dokumentation begonnen</td>
-  </tr>  
-  <tr>
-    <td>09.12.2012</td><td>MW / PB</td><td>Github eingerichtet und konfiguriert</td>
-  </tr>
-  <tr>
-    <td></td><td></td><td></td>
-  </tr>
-  <tr>
-    <td></td><td></td><td></td>
+    <td>HTML Prototypen entwerfen und Einbindung der Google Fusion API</td>
   </tr>
 </table>
