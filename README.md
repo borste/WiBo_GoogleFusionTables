@@ -39,8 +39,14 @@ Update
     <th>Datum</th><th>Bearbeiter</th><th>Kommentar</th>
   </tr>
   <tr>
+    <td>04.11.2012</td><td>MW / PB</td><td>Projektbeschreibung, Google Docs</td>
+  </tr>  
+  <tr>
     <td>13.11.2012</td><td>MW / PB</td><td>Datensammlung begonnen</td>
   </tr>
+  <tr>
+    <td>02.12.2012</td><td>MW / PB</td><td>Dokumentation begonnen</td>
+  </tr>  
   <tr>
     <td>09.12.2012</td><td>MW / PB</td><td>Github eingerichtet und konfiguriert</td>
   </tr>
