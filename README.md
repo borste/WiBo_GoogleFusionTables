@@ -72,7 +72,6 @@ Datenquellen
   </tr>
 </table>
 
-
 Next Steps
 -------------------------
 <table>
