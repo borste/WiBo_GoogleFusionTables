@@ -58,6 +58,11 @@ Zeitplanung und Meilensteine
   </tr>
 </table>
 
+Datenquellen
+-------------------------
+[Fusion Table](https://www.google.com/fusiontables/DataSource?docid=1vVMy7KCM_NvetN14O7RLTzAD3SdR9Z82_jQiWiw)
+[Spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AtD8rM3WnWq-dFp0RDVSNUZwWGN6c2ZVSFdfR0xGeFE)
+
 Next Steps
 -------------------------
 <table>
