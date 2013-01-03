@@ -25,7 +25,7 @@ Update
     <td>09.12.2012</td><td>MW / PB</td><td>Github eingerichtet und konfiguriert</td>
   </tr>
   <tr>
-    <td>28.12.2012</td><td>PB</td>Eintragung diverser Weihnachtsmärkte in die unten genannten Datenquellen, Verknüpfung Spreadsheet mit Fusion Table<td></td>
+    <td>28.12.2012</td><td>PB</td><td>Eintragung diverser Weihnachtsmärkte in die unten genannten Datenquellen, Verknüpfung Spreadsheet mit Fusion Table</td>
   </tr>
   <tr>
     <td>03.01.2013</td><td>PB</td><td>Dokumentation Version 1.2 angelegt, Ergänzung Absatz Fusion Tables Erstellen + Kapitel für Fusion Tables API</td>
