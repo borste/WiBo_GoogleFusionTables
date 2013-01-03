@@ -25,10 +25,10 @@ Update
     <td>09.12.2012</td><td>MW / PB</td><td>Github eingerichtet und konfiguriert</td>
   </tr>
   <tr>
-    <td></td><td></td><td></td>
+    <td>28.12.2012</td><td>PB</td>Eintragung diverser Weihnachtsmärkte in die unten genannten Datenquellen, Verknüpfung Spreadsheet mit Fusion Table<td></td>
   </tr>
   <tr>
-    <td></td><td></td><td></td>
+    <td>03.01.2013</td><td>PB</td><td>Dokumentation Version 1.2 angelegt, Ergänzung Absatz Fusion Tables Erstellen + Kapitel für Fusion Tables API</td>
   </tr>
 </table>
 
@@ -65,13 +65,12 @@ Datenquellen
     <th>Tabelle</th><th>Link</th><th>Kommentar</th>
   </tr>
   <tr>
-    <td>Fusion Table</td><td>[Fusion Table](https://www.google.com/fusiontables/DataSource?docid=1vVMy7KCM_NvetN14O7RLTzAD3SdR9Z82_jQiWiw)</td><td></td>
+    <td>Fusion Table</td><td>https://www.google.com/fusiontables/DataSource?docid=1vVMy7KCM_NvetN14O7RLTzAD3SdR9Z82_jQiWiw</td><td></td>
   </tr>
   <tr>
-    <td>Spreadsheet</td><td>[Spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AtD8rM3WnWq-dFp0RDVSNUZwWGN6c2ZVSFdfR0xGeFE)</td><td></td>
+    <td>Spreadsheet</td><td>https://docs.google.com/spreadsheet/ccc?key=0AtD8rM3WnWq-dFp0RDVSNUZwWGN6c2ZVSFdfR0xGeFE</td><td></td>
   </tr>
 </table>
-
 
 Next Steps
 -------------------------
