@@ -3,17 +3,15 @@ WiBo Google Fusion Tables
 
 Google Fusion Tables - Datentabellen
 -------------------------
-_1.) Berliner Bezirke Boundaries (Polygons):_ 
-
+1. __Berliner Bezirke Boundaries (Polygons):__ 
 https://www.google.com/fusiontables/DataSource?docid=1EbdmD9fmHMemdUsUoWDeuPAtuiT4E0cp8sbCNTo 
+_Beschreibung: Rahmen/Flächen der Berliner Stadtbezirke._
 
-__Beschreibung: Rahmen/Flächen der Berliner Stadtbezirke.__
-
-2.) Berliner Weihnachtsmärkte 2012: SimpleSearch CSV-Export (20130801): 
+2. Berliner Weihnachtsmärkte 2012: SimpleSearch CSV-Export (20130801): 
 https://www.google.com/fusiontables/DataSource?docid=1xJvCETrSWREYpzz8RVT_iUTjIYRXLEO_beKniK4 
 Beschreibung: Klassischer csv-Export aller Weihnachtsmarktdaten 2012 der OpenData-API.
 
-3.) Berliner Weihnachtsmärkte 2012: SimpleSearch XML-Export (20130801): 
+3. Berliner Weihnachtsmärkte 2012: SimpleSearch XML-Export (20130801): 
 https://www.google.com/fusiontables/DataSource?docid=1zvOlYc30tjokhBDUPkFJJK06inaQByti1m3ZFCY 
 Beschreibung: Erweiterter xml-Export aller Weihnachtsmarktdaten 2012 der OpenData-API mit zusätzlichen Feldern (Timestamps, etc.)
 
