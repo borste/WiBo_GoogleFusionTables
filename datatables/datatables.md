@@ -3,9 +3,11 @@ WiBo Google Fusion Tables
 
 Google Fusion Tables - Datentabellen
 -------------------------
-1.) Berliner Bezirke Boundaries (Polygons): 
+_1.) Berliner Bezirke Boundaries (Polygons):_ 
+
 https://www.google.com/fusiontables/DataSource?docid=1EbdmD9fmHMemdUsUoWDeuPAtuiT4E0cp8sbCNTo 
-Beschreibung: Rahmen/Flächen der Berliner Stadtbezirke.
+
+__Beschreibung: Rahmen/Flächen der Berliner Stadtbezirke.__
 
 2.) Berliner Weihnachtsmärkte 2012: SimpleSearch CSV-Export (20130801): 
 https://www.google.com/fusiontables/DataSource?docid=1xJvCETrSWREYpzz8RVT_iUTjIYRXLEO_beKniK4 
