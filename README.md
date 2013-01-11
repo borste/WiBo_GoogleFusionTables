@@ -30,6 +30,9 @@ Update
   <tr>
     <td>03.01.2013</td><td>PB</td><td>Dokumentation Version 1.2 angelegt, Ergänzung Absatz Fusion Tables Erstellen + Kapitel für Fusion Tables API</td>
   </tr>
+  <tr>
+    <td>11.01.2013</td><td>PB</td><td>Dokumentation Version 1.2 ergänzt (API + Web App)</td>
+  </tr>  
 </table>
 
 Zeitplanung und Meilensteine
@@ -58,19 +61,21 @@ Zeitplanung und Meilensteine
   </tr>
 </table>
 
-Datenquellen
+Datenquellen, Wireframe
 -------------------------
 <table>
   <tr>
     <th>Tabelle</th><th>Link</th><th>Kommentar</th>
   </tr>
   <tr>
-    <td>Fusion Table</td><td>https://www.google.com/fusiontables/DataSource?docid=1vVMy7KCM_NvetN14O7RLTzAD3SdR9Z82_jQiWiw</td><td></td>
+    <td>Fusion Tables</td><td>https://github.com/borste/WiBo_GoogleFusionTables/blob/master/datatables/datatables.md</td><td>Übersicht aller Google Fusion Tables</td>
   </tr>
   <tr>
-    <td>Spreadsheet</td><td>https://docs.google.com/spreadsheet/ccc?key=0AtD8rM3WnWq-dFp0RDVSNUZwWGN6c2ZVSFdfR0xGeFE</td><td></td>
+    <td>Wireframes</td><td>![alt text](https://github.com/borste/WiBo_GoogleFusionTables/blob/master/doku/Wireframe.jpg "Wireframe")</td><td>Wireframe des Datencockpits mit iPlotz</td>
   </tr>
+  ![alt text](https://github.com/borste/WiBo_GoogleFusionTables/blob/master/doku/Wireframe.jpg "Wireframe")
 </table>
+
 
 Next Steps
 -------------------------
@@ -78,19 +83,13 @@ Next Steps
   <tr>
     <th>Beschreibung</th>
   </tr>
-  <tr>
-    <td>Datensammlung Weihnachtsmärkte abschließen</td>
-  </tr>  
     <tr>
-    <td>Fusion Tables anlegen für Weihnachtsmärkte, ggf. Sehenswürdigkeiten</td>
-  </tr>
-  <tr>
-    <td>Geodaten für Bezirksgrenzen klären, anlegen bzw. KML`s eingeständig erstellen</td>
-  </tr>  
-  <tr>
     <td>Visualisierung der Weihnachtsmarktdaten ggf. Geokoordination auf einer Google Map</td>
   </tr>
   <tr>
     <td>HTML Prototypen entwerfen und Einbindung der Google Fusion API</td>
   </tr>
+<tr>
+    <td>Dokumentation schreiben</td>
+  </tr>  
 </table>
