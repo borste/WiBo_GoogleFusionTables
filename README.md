@@ -48,10 +48,10 @@ Zeitplanung und Meilensteine
     <td>Design</td><td>Projektbeschreibung (Spezifikation) </td><td>14.11.2012 - 30.11.2012</td><td>abgeschlossen</td>
   </tr>
   <tr>
-    <td>Analyse</td><td>Vorbereitung Datenbeschaffung</td><td>01.12.2012 - 13.12.2012</td><td>begonnen</td>
+    <td>Analyse</td><td>Vorbereitung Datenbeschaffung</td><td>01.12.2012 - 13.12.2012</td><td>abgeschlossen</td>
   </tr>
   <tr>
-    <td>Implementierung</td><td>Umsetzung</td><td>14.12.2012 - 31.12.2012</td><td>offen</td>
+    <td>Implementierung</td><td>Umsetzung</td><td>14.12.2012 - 31.12.2012</td><td>begonnen</td>
   </tr>
   <tr>
     <td>Dokumentation</td><td>Dokumentation der verwendeten Technologien</td><td>01.01.2013 - 14.01.2013</td><td>begonnen</td>
