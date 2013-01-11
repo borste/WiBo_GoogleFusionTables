@@ -71,9 +71,8 @@ Datenquellen, Wireframe
     <td>Fusion Tables</td><td>https://github.com/borste/WiBo_GoogleFusionTables/blob/master/datatables/datatables.md</td><td>Übersicht aller Google Fusion Tables</td>
   </tr>
   <tr>
-    <td>Wireframes</td><td>![alt text](https://github.com/borste/WiBo_GoogleFusionTables/blob/master/doku/Wireframe.jpg "Wireframe")</td><td>Wireframe des Datencockpits mit iPlotz</td>
-  </tr>
-  ![alt text](https://github.com/borste/WiBo_GoogleFusionTables/blob/master/doku/Wireframe.jpg "Wireframe")
+    <td>Wireframes</td><td>https://github.com/borste/WiBo_GoogleFusionTables/blob/master/doku/Wireframe.jpg</td><td>Wireframe des Datencockpits mit iPlotz</td>
+  </tr>  
 </table>
 
 
