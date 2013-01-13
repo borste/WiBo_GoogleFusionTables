@@ -32,6 +32,9 @@ Update
   </tr>
   <tr>
     <td>11.01.2013</td><td>PB</td><td>Dokumentation Version 1.2 ergänzt (API + Web App)</td>
+  </tr> 
+  <tr>
+    <td>13.01.2013</td><td>MW / PB</td><td>Entwicklung des HTML Prototypen (Fusion Tables Integration, Maps-Integration, Filter auf Basis von Querys mit der GFT-API</td>
   </tr>  
 </table>
 
@@ -73,6 +76,9 @@ Datenquellen, Wireframe
   <tr>
     <td>Wireframes</td><td>https://github.com/borste/WiBo_GoogleFusionTables/blob/master/doku/Wireframe.jpg</td><td>Wireframe des Datencockpits mit iPlotz</td>
   </tr>  
+  <tr>
+    <td>HTML Prototyp</td><td> http://borstenstyle.de/uni/wibo/</td><td>HTML Prototype/td>
+  </tr>    
 </table>
 
 
