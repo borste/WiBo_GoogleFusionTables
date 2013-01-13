@@ -178,6 +178,7 @@
 	// Adressen-Zoom
 	function zoomtoaddress() {
 		// Use the geocoder to geocode the address
+<<<<<<< HEAD
 		geocoder.geocode(
 			{'address': document.getElementById("address").value + ' .' + 'berlin' }, function(results, status) {
 				// If the status of the geocode is OK
@@ -196,6 +197,24 @@
 				} 
 			}
 		);
+=======
+		geocoder.geocode( { 'address': document.getElementById("address").value + ' .' + 'berlin' }, function(results, status) {
+		// If the status of the geocode is OK
+		if (status == google.maps.GeocoderStatus.OK) {
+			// Change the center and zoom of the map
+			map.setCenter(results[0].geometry.location);
+			map.setZoom(15);
+			var marker = new google.maps.Marker({
+			position: results[0].geometry.location,
+			map: map
+			/*	  ,
+			icon: "wht_pushpin.png",
+			title: 'Ihr Suchtreffer'
+			*/    
+			});  			  
+		} 
+	});
+>>>>>>> 21447f7af9de5860ad462962602c0627e76a5e40
 	}
 
     google.maps.event.addDomListener(window, 'load', initialize);
