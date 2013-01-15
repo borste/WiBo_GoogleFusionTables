@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <title>Fusion Tables Layer Example: Dynamic styles and templates</title>
 	<link href="/fusiontables/docs/samples/style/default.css" rel="stylesheet" type="text/css">
+	
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+  
+	
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
     <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
@@ -16,6 +20,10 @@
 		var locationColumn = 'geo_adresse';	  
 		var apiKey = "AIzaSyBs-9DEpRuxKFYrlbp7VnlTTK1MikDopBU";
 		var geocoder = new google.maps.Geocoder();
+		
+		$(function() {
+			$( "#date" ).datepicker();
+		});
 		
 		//Drop Downs initial aus Fusion Table befüllen
 		request();
@@ -34,7 +42,13 @@
 					},
 				map: map
 			});
+			
 
+			//Datum 
+			google.maps.event.addDomListener(document.getElementById('dateButton'), 'click', function() {
+				updateMap(layer, tableId, locationColumn,"date");
+			});				
+			
 			//Bezirk
 			google.maps.event.addDomListener(document.getElementById('destrict'),'change', function() {
 				updateMap(layer, tableId, locationColumn,"destrict");
@@ -49,6 +63,11 @@
 			google.maps.event.addDomListener(document.getElementById('stage_technology'), 'change', function() {
 				updateMap(layer, tableId, locationColumn,"stage_technology");
 			});
+			
+			//Checkbox freier Eintritt
+			google.maps.event.addDomListener(document.getElementById('free_entry'), 'change', function() {
+				updateMap(layer, tableId, locationColumn,"free_entry");
+			});	
 		}
 
 		// Weihnachtsmärke ein/ausblenden
@@ -88,6 +107,17 @@
 			var value = document.getElementById(element).value;			
 			if (value) {					
 					switch(element){
+						case "date":		
+							var whereStatment = (value=="" ? "" : "von <= '" + value + "' AND bis >= '" + value + "'");						
+							queries["date"] = whereStatment;													
+							layer.setOptions({						
+								query: {
+									select: locationColumn,
+									from: tableId,
+									where: getWhereStatements("date")
+								}
+							});			
+							break;					
 						case "destrict":		
 							var whereStatment = (value=="all" ? "" : "bezirk = '" + value + "'");						
 							queries["destrict"] = whereStatment;						
@@ -123,7 +153,21 @@
 									where: getWhereStatements("stage_technology")
 								}	
 							});																	
-							break;					
+							break;									
+						case "free_entry":		
+							tmp = (document.getElementById(element).checked == true ? 0 : 1);	
+							//deaktiviert heißt alle mit oder ohne Eintrittspreis
+							var	whereStatment = (tmp == 1 ? "" : "eintrittspreis = '" + tmp + "'");
+							
+							queries["free_entry"] = whereStatment;
+							layer.setOptions({						
+								query: {
+									select: locationColumn,
+									from: tableId,
+									where: getWhereStatements("free_entry")
+								}	
+							});																	
+							break;	
 						default:
 							layer.setOptions({		
 								query: {
@@ -139,7 +183,7 @@
 						select: locationColumn,
 						from: tableId
 					}
-				});
+				});	
 			}	
 		}
 	
@@ -156,6 +200,12 @@
 			listSortiment(data);
 		// console.log(data);
 		});			
+		
+	/*	var listDateQuery = "SELECT von,bis FROM " + tableId + " WHERE von >= '12/8/2012' AND bis <= '12/8/2012'";
+			$.get('https://www.googleapis.com/fusiontables/v1/query?sql=' + listDateQuery + '&key=' + apiKey, function(data) {
+				listDestricts(data);
+			 console.log(data);
+		});			*/
 	}	  
 
 	//Bezirke Drop-Down
@@ -178,7 +228,6 @@
 	// Adressen-Zoom
 	function zoomtoaddress() {
 		// Use the geocoder to geocode the address
-<<<<<<< HEAD
 		geocoder.geocode(
 			{'address': document.getElementById("address").value + ' .' + 'berlin' }, function(results, status) {
 				// If the status of the geocode is OK
@@ -197,24 +246,6 @@
 				} 
 			}
 		);
-=======
-		geocoder.geocode( { 'address': document.getElementById("address").value + ' .' + 'berlin' }, function(results, status) {
-		// If the status of the geocode is OK
-		if (status == google.maps.GeocoderStatus.OK) {
-			// Change the center and zoom of the map
-			map.setCenter(results[0].geometry.location);
-			map.setZoom(15);
-			var marker = new google.maps.Marker({
-			position: results[0].geometry.location,
-			map: map
-			/*	  ,
-			icon: "wht_pushpin.png",
-			title: 'Ihr Suchtreffer'
-			*/    
-			});  			  
-		} 
-	});
->>>>>>> 21447f7af9de5860ad462962602c0627e76a5e40
 	}
 
     google.maps.event.addDomListener(window, 'load', initialize);
@@ -223,10 +254,12 @@
     <body>
 		Git: <a href="https://github.com/borste/WiBo_GoogleFusionTables">GIT-Repo</a> <br/>
 		Team: Manuel W, Patrick B.<br/>
-		Stand: 13.01.2013<br/>
+
 		<br />
-		<div id="map-canvas" style="height:500px;width:500px"></div>
+		<div id="map-canvas" style="height:500px;width:500px"></div>		
 		<div>
+			Datum (12/24/2012)<input type="text" id="date" value=""><input type="button" value="Refresh" id="dateButton" /></br>
+		
 			<input type="text" id="address" onclick="this.value=''" value="Ihre Adresse (Str., Nr)" class="formtypo">
 			<input type="button" onclick="zoomtoaddress()" value="Finden" class="button1">
 		<a href="#" onclick="toggle_markets()">M&auml;rkte An-/Auschalten</a> <br />
@@ -242,6 +275,9 @@
 		<br />
 		<input id="stage_technology" type="checkbox" value="on" />
 		<label>Fahrgesch&auml;fte</label>
+		<br />
+		<input id="free_entry" type="checkbox" value="on" />
+		<label>freier Eintritt?</label>
 		</div>
 	</body>
 </html>
