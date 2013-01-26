@@ -180,7 +180,7 @@
 							});	
 						}					
 					//DropDowns aktualisieren in Abhängigkeit der Filter
-					request();
+					//request();
 			} else {
 				// notwendig für "Alle anzeigen"
 				layer.setOptions({	
@@ -201,7 +201,8 @@
 			// console.log(data);
 		});	
 
-		var listSortimentQuery = "SELECT sortiment FROM " + tableId + " " + (getWhereStatements()=="" ? "" : "WHERE " + getWhereStatements()) + "  GROUP BY sortiment";
+		//var listSortimentQuery = "SELECT sortiment FROM " + tableId + " " + (getWhereStatements()=="" ? "" : "WHERE " + getWhereStatements()) + "  GROUP BY sortiment";
+		var listSortimentQuery = "SELECT sortiment FROM " + tableId + " GROUP BY sortiment";
 		$.get('https://www.googleapis.com/fusiontables/v1/query?sql=' + listSortimentQuery + '&key=' + apiKey, function(data) {
 			listSortiment(data);
 		// console.log(data);
@@ -216,6 +217,7 @@
 
 	//Bezirke Drop-Down
 	function listDestricts(data){
+		//$('#destrict').empty();
 		for (var i in data['rows'])
 		{
 			$('#destrict').append('<option>' + data['rows'][i] + '</option>');
@@ -226,7 +228,7 @@
 	//Marktsortiment Drop-Down
 	function listSortiment(data){
 		//HTML-Element leeren, bevor es anhand der Filter neu befüllt wird
-		$('#sortiment').empty();
+		//$('#sortiment').empty();
 		
 		for (var i in data['rows'])
 		{
