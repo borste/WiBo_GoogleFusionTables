@@ -23,15 +23,17 @@ function initialize() {
 		zoom: 9,
 		mapTypeId: google.maps.MapTypeId.ROADMAP
 	});
-		
+						
 	layer = new google.maps.FusionTablesLayer({
 		query: {
 			select: locationColumn,
 			from: tableId
-		},					
-		map: map
+		},			
+		styleId: 3,
+		templateId: 4,
+		map: map		
 	});
-	
+
 	//KML-Daten für Bezriksgrenznen
 	layerPolyDescrict = new google.maps.FusionTablesLayer({
 		query: {
