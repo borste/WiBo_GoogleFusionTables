@@ -6,6 +6,8 @@ Projektbeschreibung
 Ziel der Spezifikation beinhaltet die Definition der Anforderungen an das zu entwickelnde Daten­cockpit für die Berliner Weihnachtsmärkte auf Basis von Google Fusion Tables. Neben den Anforderungen an die Applikation sind die Meilensteine, Ziele sowie auch ein einfaches Design / Wi­reframing enthalten. Die Umsetzung der Applikation “Datencockpit” erfolgt auf Basis dieser Spezifikation.
 Neben der Umsetzung steht letztlich die Technologie im Vordergrund und soll hinreichend euriert und beschrieben werden.
 
+Daten-cockpit: http://tinyurl.com/xmas-city
+
 Update
 -------------------------
 <table>
@@ -77,24 +79,6 @@ Datenquellen, Wireframe
     <td>Wireframes</td><td>https://github.com/borste/WiBo_GoogleFusionTables/blob/master/doku/Wireframe.jpg</td><td>Wireframe des Datencockpits mit iPlotz</td>
   </tr>  
   <tr>
-    <td>HTML Prototyp</td><td> http://borstenstyle.de/uni/wibo/</td><td>HTML Prototype/td>
+    <td>HTML Prototyp</td><td>http://tinyurl.com/xmas-city</td><td>HTML Prototype</td>
   </tr>    
-</table>
-
-
-Next Steps
--------------------------
-<table>
-  <tr>
-    <th>Beschreibung</th>
-  </tr>
-    <tr>
-    <td>Visualisierung der Weihnachtsmarktdaten ggf. Geokoordination auf einer Google Map</td>
-  </tr>
-  <tr>
-    <td>HTML Prototypen entwerfen und Einbindung der Google Fusion API</td>
-  </tr>
-<tr>
-    <td>Dokumentation schreiben</td>
-  </tr>  
 </table>
