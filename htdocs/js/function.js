@@ -290,31 +290,21 @@ function request(){
 
 	var listDestrictsQuery = "SELECT bezirk FROM " + tableId + " GROUP BY bezirk";
 		$.get('https://www.googleapis.com/fusiontables/v1/query?sql=' + listDestrictsQuery + '&key=' + apiKey, function(data) {
-			listDestricts(data);
-	});	
+		//Bezirke Drop-Down
+		for (var i in data['rows'])	{
+			$('#destrict').append('<option>' + data['rows'][i] + '</option>');
+			//console.log('data[\''+i+'\'] is ' + data['rows'][i]);
+		}	
+	}, "json");	
 
 	var listSortimentQuery = "SELECT sortiment FROM " + tableId + " GROUP BY sortiment";
 		$.get('https://www.googleapis.com/fusiontables/v1/query?sql=' + listSortimentQuery + '&key=' + apiKey, function(data) {
-		listSortiment(data);
-	});					
+		//Marktsortiment Drop-Down
+		for (var i in data['rows']){
+			$('#sortiment').append('<option>' + data['rows'][i] + '</option>');
+		}	
+	}, "json");					
 }	  
-
-//Bezirke Drop-Down
-function listDestricts(data){
-	for (var i in data['rows'])
-	{
-		$('#destrict').append('<option>' + data['rows'][i] + '</option>');
-		//console.log('data[\''+i+'\'] is ' + data['rows'][i]);
-	}		
-}
-
-//Marktsortiment Drop-Down
-function listSortiment(data){	
-	for (var i in data['rows'])
-	{
-		$('#sortiment').append('<option>' + data['rows'][i] + '</option>');
-	}		
-}	 
 
 // Adressen-Zoom
 function zoomtoaddress() {
