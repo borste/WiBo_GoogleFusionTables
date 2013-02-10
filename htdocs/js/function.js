@@ -20,7 +20,7 @@ function initialize() {
 
 	map = new google.maps.Map(document.getElementById('map-canvas'), {
 		center: germanyBerlin,
-		zoom: 9,
+		zoom: 10,
 		mapTypeId: google.maps.MapTypeId.ROADMAP
 	});
 						
