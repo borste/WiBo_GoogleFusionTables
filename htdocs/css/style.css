@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	padding:0px;
+	background-color: #fcf9e7;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+}
+#map-canvas {
+	height:400px;
+	width:728px;
+	margin: 10px 0;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+#legend {
+	background: #fcf9e7;
+	padding: 5px;
+	margin-bottom: 25px;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	border:1px solid #b10303;
+}
+.box {
+	width: 1000px;
+	margin: 0 auto;
+}
+.header {
+	width:1000px;
+	height:200px;
+	background:url(../img/header.jpg);
+	margin: 0 auto;
+	margin-bottom:10px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+.left {
+	float:left;
+	width:230px;
+	border-right:1px solid #d5cfc3;
+	padding:10px;
+	height:530px
+}
+.content {
+	float:right;
+	width:728px;
+	text-algin:left;
+	height:500px;
+	padding:10px;
+}
+.ctop {
+	border-bottom:1px solid #d5cfc3;
+	padding-bottom:10px;
+}
+.ctop .text {
+	width:350px;
+}
+.ctop-left {
+	float:left;
+	width:450px;
+}
+.ctop-right {
+	float:right;
+	height:60px;
+	text-align:right;
+	width:270px;
+}
+.toggle {
+	height:20px;
+	width:110px;
+	color:#b10303;
+	text-align:center;
+	padding:2px 0px;
+	margin-left:5px;
+	background-color:#fff;
+	border:1px solid #d5cfc3;
+	display:block;
+	float:right;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+.cbot {
+	border-top:1px solid #d5cfc3;
+	padding-top:10px;
+}
+.clear {
+	clear:both;
+}
+h2 {
+	font-size:14px;
+	font-weight:bold;
+	color:#b10303;
+}
+.left select {
+	width:220px;
+	border:1px solid #d5cfc3;
+}
+.cbot select {
+	width:350px;
+	border:1px solid #d5cfc3;
+}
+.text {
+	width:187px;
+	padding:2px;
+	border: 1px solid #d5cfc3;
+	height: 20px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+.button {
+	height:26px;
+	padding:2px 5px;
+	color:#b10303;
+	border: 1px solid #d5cfc3;
+	background-color:#fff;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+.refresh {
+	width:26px;
+	height:26px;
+	background:url(../img/refresh.jpg);
+	padding:4px 5px
+}
+.copy {
+	font-size:10px;
+	margin-top:210px
+}
+a {
+	color: #b10303
+}
+.checkbox {
+	padding:5px 0;
+}
+label {
+	margin:5px 0;
+	display:block
+}
+.ui-widget-content a {
+	color:#b10303 !important;
+}
+.ui-datepicker {
+	margin-top:5px;
+	width:208px !important
+}
+.ui-datepicker table {
+	background-color:#fcf9e7
+}
+.ui-widget-header {
+	background:#e8e5d5 !important;
+	color:#b10303
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background:#e8e5d5 !important
+}
